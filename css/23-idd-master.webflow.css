@@ -1014,7 +1014,13 @@
 }
 
 .div-block-26.liwanqian {
-  background-image: url('../images/ヘッダー画像-横---32247009レイ-マンセン.jpg');
+  width: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/i_head_l.jpg');
+  background-size: cover;
 }
 
 .div-block-26.tomy {
@@ -1066,11 +1072,11 @@
   display: block;
   width: 100vw;
   height: 100vh;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4002,6 +4008,7 @@
   }
 
   .image-14.l {
+    height: 100%;
     border-style: solid;
     border-width: 0px 0px 20px 20px;
     border-color: #000 #8db12a rgba(141, 177, 42, 0.08) rgba(141, 177, 42, 0.08);
