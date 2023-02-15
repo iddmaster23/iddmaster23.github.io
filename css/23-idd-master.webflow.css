@@ -3760,8 +3760,8 @@
     align-items: flex-start;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(237, 255, 188, 0.7)), to(rgba(223, 199, 255, 0.7)));
-    background-image: linear-gradient(90deg, rgba(237, 255, 188, 0.7), rgba(223, 199, 255, 0.7));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(237, 255, 188, 0.2)), to(rgba(223, 199, 255, 0.2)));
+    background-image: linear-gradient(90deg, rgba(237, 255, 188, 0.2), rgba(223, 199, 255, 0.2));
   }
 
   .body-3 {
@@ -4397,6 +4397,10 @@
 
   .background-video-7 {
     position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
     z-index: -2;
     display: none;
     width: 100vw;
@@ -4890,10 +4894,9 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
@@ -4901,6 +4904,8 @@
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
   }
 
   .container-10 {
