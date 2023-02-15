@@ -1832,6 +1832,8 @@
 
 .slide-6.chensei {
   background-image: url('../images/２チェス遊び---沈婧.jpeg');
+  background-position: 50% 0%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
