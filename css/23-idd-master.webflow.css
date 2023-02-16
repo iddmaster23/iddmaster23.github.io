@@ -1003,7 +1003,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 60vh;
-  background-image: url('../images/学外展ヘッダー横陳欣---X-Moria.png');
+  background-image: url('../images/chen_l.jpg');
   background-position: 50% 50%;
 }
 
@@ -1018,7 +1018,7 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: url('../images/li.jpg');
+  background-image: url('../images/i_head_l.jpg');
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: fill;
@@ -1049,7 +1049,7 @@
 }
 
 .div-block-26.wang {
-  background-image: url('../images/トップ横---王逸潇.jpeg');
+  background-image: url('../images/wangs_l.jpg');
 }
 
 .div-block-26.zhao {
@@ -1078,11 +1078,15 @@
   display: block;
   width: 100vw;
   height: 100vh;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1484,6 +1488,8 @@
 
 .slide-3.ouga {
   background-image: url('../images/02---OU-GA.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-3.lijiayi {
@@ -1594,6 +1600,8 @@
 
 .slide-4.ouga {
   background-image: url('../images/03---OU-GA.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-4.lijiayi {
@@ -1830,7 +1838,7 @@
 }
 
 .slide-6.chensei {
-  background-image: url('../images/２チェス遊び---沈婧.jpeg');
+  background-image: url('../images/shen_4.jpg');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2715,6 +2723,11 @@
   object-fit: cover;
 }
 
+.image-32.liwan {
+  display: block;
+  width: auto;
+}
+
 @media screen and (max-width: 991px) {
   .nav {
     padding-left: 22px;
@@ -3472,6 +3485,10 @@
 
   .div-block-26 {
     border-bottom-right-radius: 150px;
+  }
+
+  .div-block-26.chen {
+    background-image: url('../images/chen_p.jpg');
   }
 
   .div-block-27 {
