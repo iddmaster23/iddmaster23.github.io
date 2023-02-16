@@ -2095,7 +2095,7 @@
 .background-video-6 {
   position: fixed;
   z-index: -2;
-  display: none;
+  display: block;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
@@ -2621,10 +2621,7 @@
   right: 0%;
   bottom: 0%;
   z-index: -2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 113vh;
   margin-top: -17px;
@@ -2707,6 +2704,16 @@
 
 .div-block-108 {
   display: none;
+}
+
+.image-32 {
+  width: 85%;
+  height: 60vh;
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 991px) {
@@ -4234,6 +4241,10 @@
   }
 
   .div-block-75.focus {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-top-color: #8db12a;
     border-bottom-color: #8db12a;
   }
@@ -4250,6 +4261,7 @@
   }
 
   .gallery {
+    width: 100vw;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 0px;
@@ -4402,7 +4414,7 @@
     right: 0%;
     bottom: 0%;
     z-index: -2;
-    display: none;
+    display: block;
     width: 100vw;
     height: 100vh;
   }
@@ -4883,10 +4895,7 @@
     top: 0%;
     right: 0%;
     bottom: 0%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 100vw;
     height: auto;
     -webkit-box-orient: horizontal;
@@ -4903,6 +4912,7 @@
     align-items: stretch;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
     align-self: auto;
     -o-object-fit: contain;
     object-fit: contain;
